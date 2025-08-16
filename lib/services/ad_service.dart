@@ -11,7 +11,7 @@ class AdService {
 
   void loadBanner() {
     _bannerAd = BannerAd(
-      adUnitId: 'TU_AD_UNIT_ID',  // Cambia aquí por tu ad unit real
+      adUnitId: 'ca-app-pub-2328860087858516/7814038035', // Banner de prueba oficial
       request: const AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
