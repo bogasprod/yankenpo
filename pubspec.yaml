@@ -1,0 +1,46 @@
+name: yankenpo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_mobile_ads: ^6.0.0
+  in_app_purchase: ^3.1.11
+  provider: ^6.1.1
+  intl: ^0.20.2
+  shared_preferences: ^2.2.2 # (o la última versión estable)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icon/icon.png"  # ✅ para ícono normal
+  image_path_ios: "assets/icon/icon.png"      # ✅ para iOS
+  adaptive_icon_background: "#004d40"         # ✅ o usa una imagen
+  adaptive_icon_foreground: "assets/icon/icon.png"  # ✅ tu logo principal
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/icon/icon.png
+    - assets/images/rock.png
+    - assets/images/paper.png
+    - assets/images/scissors.png
+    - assets/images/win.png         
+    - assets/images/lose.png     
+    - assets/images/draw.png     
+    - assets/images/question.png     
